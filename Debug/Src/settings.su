@@ -1,0 +1,9 @@
+settings.c:44:6:temp_filarray	16	static
+settings.c:67:6:arrtoset	4	static
+settings.c:80:6:settoarr	4	static
+settings.c:93:6:save_data	8	static
+settings.c:102:9:save_obj_drop_coord	8	static
+settings.c:112:9:load_obj_drop_coord	8	static
+settings.c:120:6:save_settings	8	static
+settings.c:129:6:load_settings	104	static
+settings.c:185:6:read_table	72	static

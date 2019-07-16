@@ -1,0 +1,10 @@
+motion_control.c:60:6:domotion	24	static
+motion_control.c:69:6:vacuum_on	8	static
+motion_control.c:74:6:vacuum_off	8	static
+motion_control.c:80:6:action_loop	16	static
+motion_control.c:123:6:set_acceleration	16	static
+motion_control.c:131:9:soft_limit_ini	16	static
+motion_control.c:229:9:axis_int_stop	16	static
+motion_control.c:255:9:prepair_moove_carr	32	static
+motion_control.c:268:6:action_moove_carr	16	static
+motion_control.c:288:9:short_move	48	static

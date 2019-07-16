@@ -1,0 +1,8 @@
+uart2.c:55:6:uart_ini_u2	8	static
+uart2.c:67:6:add_buffer_u2	8	static
+uart2.c:89:6:read_buff_char_u2	16	static
+uart2.c:112:6:readATSerialBuff_u2	24	static
+uart2.c:143:6:parseBuff_u2	48	dynamic
+uart2.c:175:6:printint_u2	32	static
+uart2.c:184:6:printstr_u2	16	static
+uart2.c:192:6:printfloat_u2	32	static

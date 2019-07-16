@@ -1,0 +1,3 @@
+serial_interface.c:101:6:parse_commands_machinevision	40	static
+serial_interface.c:124:6:parse_commands	344	static
+serial_interface.c:588:6:msg_agent	8	static

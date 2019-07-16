@@ -1,0 +1,7 @@
+obj_control.c:58:6:add_object	40	static
+obj_control.c:108:6:encoder_pulce	24	static
+obj_control.c:151:6:obj_action	16	static
+obj_control.c:177:6:put_obj	24	static
+obj_control.c:369:6:do_demo	24	static
+obj_control.c:455:6:translate_step	16	static
+obj_control.c:462:6:reset_seq_steps	4	static

@@ -1,0 +1,40 @@
+!SESSION 2019-07-16 16:57:18.516 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  C:\Users\sam_1\Documents\00WORK00\delta-controller\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\sam_1\Documents\00WORK00\delta-controller\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2019-07-16 16:59:32.679
+!MESSAGE Log4j initialized with config file C:\Users\sam_1\Documents\00WORK00\delta-controller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2019-07-16 16:59:54.914
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-16 17:01:09.196
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-16 17:01:09.514
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-16 17:01:09.738
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-16 17:01:09.802
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-16 17:01:09.834
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-16 17:01:09.866
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-16 17:01:09.917
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-16 17:01:09.948
+!MESSAGE Falling back to default toolchain
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-16 17:02:19.030
+!MESSAGE Indexed 'v0.6' (36 sources, 112 headers) in 34,2 sec: 12 236 declarations; 76 021 references; 1 unresolved inclusions; 3 syntax errors; 80 unresolved names (0,091 %)

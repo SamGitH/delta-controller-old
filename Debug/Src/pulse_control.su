@@ -1,0 +1,7 @@
+pulse_control.c:45:6:timers_ini	16	static
+pulse_control.c:99:6:axis_a_motion_ini	40	static
+pulse_control.c:133:6:axis_a_timer	16	static
+pulse_control.c:246:6:axis_b_motion_ini	40	static
+pulse_control.c:278:6:axis_b_timer	16	static
+pulse_control.c:393:6:axis_c_motion_ini	40	static
+pulse_control.c:423:6:axis_c_timer	16	static
