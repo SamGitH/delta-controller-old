@@ -12,25 +12,16 @@
 uint8_t flag_start = 0;
 uint8_t flag_axises_inned = 0;
 
-
-
-
-
 extern float l_rod;
 extern float zero_C;
-
-extern float 								//object's operation coordinates
-			z_before_capture,
-			z_capture,
-			z_past_capture,
-			z_before_drop;
-
-
+extern float z_before_capture,//object's operation coordinates
+			 z_capture,
+			 z_past_capture,
+			 z_before_drop;
 
 
 void main_ini()
 {
-
 	uart_ini();
 	uart_ini_u2();
 
@@ -40,7 +31,7 @@ void main_ini()
 	printstr("V0.6");
 
 	//temp_filarray();
-	//save_data();
+	save_data();
   	load_settings();
 
 	/*int test_input[4] ={1,2,3,4};
@@ -56,13 +47,8 @@ void main_ini()
 
 	timers_ini();
 	ini_calc();
-
 	//flag_axises_inned = soft_limit_ini();  //ini machine zero
-
-
 }
-
-
 
 void main_task()
 {

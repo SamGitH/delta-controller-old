@@ -1,6 +1,6 @@
 #ifndef OBJ_CONTROL_H_
-#define OBJ_CONTROL_H_
 
+#define OBJ_CONTROL_H_
 #define ARRAY_ACTIONS_SIZE 300 //800 - максимум
 
 void reset_seq_steps();
