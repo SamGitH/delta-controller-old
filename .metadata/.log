@@ -38,3 +38,166 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\sam_1\Documen
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-07-16 17:02:19.030
 !MESSAGE Indexed 'v0.6' (36 sources, 112 headers) in 34,2 sec: 12 236 declarations; 76 021 references; 1 unresolved inclusions; 3 syntax errors; 80 unresolved names (0,091 %)
+!SESSION 2019-07-17 11:51:21.662 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2019-07-17 11:55:40.344
+!MESSAGE Log4j initialized with config file C:\Users\sam_1\Documents\00WORK00\delta-controller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 11:55:55.544
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 11:55:55.544
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 11:55:55.832
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 11:55:55.848
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 11:55:55.848
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 11:55:55.867
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 11:55:55.877
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 11:55:55.886
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2019-07-17 11:56:07.744
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2019-07-17 12:37:11.657 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/sam_1/Documents/00WORK00/delta-controller/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2019-07-17 12:38:03.099
+!MESSAGE Log4j initialized with config file C:\Users\sam_1\Documents\00WORK00\delta-controller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 12:38:16.101
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 12:38:16.115
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 12:38:16.357
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 12:38:16.367
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 12:38:16.377
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 12:38:16.389
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2019-07-17 12:38:16.401
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2019-07-17 12:38:16.411
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2019-07-17 12:38:22.520
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-07-17 12:38:41.704
+!MESSAGE Connection to http://sw-center.st.com/stm32cubeide/updatesite1/p2.index failed on sw-center.st.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: sw-center.st.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-07-17 12:38:42.973
+!MESSAGE Unknown Host: http://sw-center.st.com/stm32cubeide/updatesite1/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: sw-center.st.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-07-17 12:38:43.045
+!MESSAGE Connection to https://download.eclipse.org/releases/2019-03/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-07-17 12:38:43.423
+!MESSAGE Unknown Host: https://download.eclipse.org/releases/2019-03/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2019-07-17 13:25:07.415
+!MESSAGE Won't launch debug session since we failed to locate the binary.
