@@ -37,8 +37,8 @@ v0.6.list \
 all: v0.6.elf secondary-outputs
 
 # Tool invocations
-v0.6.elf: $(OBJS) $(USER_OBJS) C:\Users\sam_1\Documents\00WORK00\Delta\ fimware\ stm32h743\v0.6\STM32H743ZITX_FLASH.ld
-	arm-none-eabi-gcc -o "v0.6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\sam_1\Documents\00WORK00\Delta fimware stm32h743\v0.6\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="v0.6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+v0.6.elf: $(OBJS) $(USER_OBJS) /home/user/deltaGit/delta-controller/STM32H743ZITX_FLASH.ld
+	arm-none-eabi-gcc -o "v0.6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/user/deltaGit/delta-controller/STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="v0.6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
