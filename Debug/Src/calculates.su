@@ -1,4 +1,4 @@
-calculates.c:35:9:ini_calc	8	static
-calculates.c:44:9:calculate_positions	240	static
-calculates.c:173:9:calculate_sfere	64	static
-calculates.c:191:9:calc_impulses	80	static
+calculates.c:36:9:ini_calc	8	static
+calculates.c:45:9:calculate_positions	240	static
+calculates.c:174:9:calculate_sfere	64	static
+calculates.c:192:9:calc_impulses	80	static
